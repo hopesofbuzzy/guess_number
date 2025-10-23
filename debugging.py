@@ -3,7 +3,7 @@ def calculate_sum_and_average(numbers):
     for num in numbers:
         total_sum += num
 
-    average = total_sum // len(numbers)
+    average = total_sum / len(numbers)
     return total_sum, average
 
 
